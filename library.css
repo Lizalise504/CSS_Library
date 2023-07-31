@@ -1,0 +1,135 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Search button */
+  .btn{
+    width: 12em;
+    height: 2em;
+    margin: 8px;
+    color: rgb(67, 219, 67);
+    border: 1px solid rgb(67, 219, 67);
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+/* Flexible columns and rowns */
+.row{
+    height: 5em;
+    margin: 0.63em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.col, .col-2, .col-3{
+    height: 3em;
+    flex: 1;
+    margin: 0.63em;
+    padding-top: 1em;
+    background-color: rgb(76, 76, 116);
+}
+.col-2{
+    flex: 2;
+    background-color: rgba(76, 76, 116, 0.726);
+}
+.col-3{
+    flex: 3;
+    background-color: rgba(76, 76, 116, 0.507);
+}
+
+/* Flexible Navigation bar */
+.nav{
+    height: auto;
+    padding: 0 1em;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    margin: 0.63em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-links{
+    list-style-type: none;
+    margin: 0.63em 1em;
+    font-weight: normal;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+    margin: 0.9em;
+}
+
+.active{
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn{
+    color: #fff;
+    background-color: rgb(121, 250, 233);
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    box-shadow: 0.2em 0.3em 0.1em rgb(129, 127, 127);
+}
+
+/* Webpage skeleton */
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 10px;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin: 10px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 8px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 10px;
+}
+.row {
+    display: flex;
+}
